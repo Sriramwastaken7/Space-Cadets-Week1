@@ -44,7 +44,7 @@ public class EmailToName {
                 // to the start index to make it neater as i didn't have time need to update it in the near future
                 String name = line.substring(indexStart + "og:title\" content=\"".length(), indexEnd);
 
-                //printing out the name retrivied using info from the email
+                //printing out the name we got using info from the email
                 System.out.println(name);
             }
         }
